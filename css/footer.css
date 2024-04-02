@@ -1,0 +1,124 @@
+.footer{
+   background: var(--black-max);
+}
+
+.footer-container{
+  max-width: 1200px;
+  padding: 120px 20px 60px 0px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  position: relative;
+}
+
+.footer-texto{
+  font-size: 1.4rem;
+  line-height: 1.33;
+  color: var(--cor-curso);
+  max-width: 27ch;
+}
+
+.footer-contato li{
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  color: #FFF;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.email::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -55px;  
+  width: 42px;
+  height: 42px;
+  background: url(../img/email.svg) no-repeat center center;
+}
+
+.email:hover{
+  transform: scale(1.25);
+  transition: all 1.3s;
+  font-weight: 600;
+}
+
+.git::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -55px;  
+  width: 42px;
+  height: 42px;
+  background: url(../img/github.svg) no-repeat center center;
+}
+
+.git:hover{
+  transform: scale(1.25);
+  transition: all 1.3s;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.linkedin::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -55px;  
+  width: 42px;
+  height: 42px;
+  background: url(../img/linkedin.svg) no-repeat center center;
+}
+
+.linkedin:hover{
+  transform: scale(1.25);
+  transition: all 1.3s;
+  font-weight: 600;
+}
+
+.whats::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -55px;  
+  width: 42px;
+  height: 42px;
+  background: url(../img/whatsapp.svg) no-repeat center center;
+}
+
+.whats:hover{
+  transform: scale(1.25);
+  transition: all 1.3s;
+  font-weight: 600;
+}
+
+.footer-contato li a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer-contato abbr{
+  text-decoration: none;
+}
+
+.footer-copy{
+  grid-column: 1/-1;
+  text-align: center;
+  font-weight: 600;
+  color: var(--cor-curso);
+}
+
+@media (max-width: 500px){
+  .footer-container{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li{
+    font-size: 1.2rem;
+  }
+}

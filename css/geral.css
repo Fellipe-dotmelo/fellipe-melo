@@ -1,0 +1,63 @@
+body{
+  margin: 0px;
+  background-color: var(--cor-fundo);
+  font-family: var(--fonte-geral);
+  color: var(--cor-texto);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+:root{
+  --cor-borda-link: #4C9595;
+  --black-max: #000;
+  --cor-fundo: #F1F1F1;
+  --cor-texto: #141414;
+  --cor-link: #212121;
+  --cor-local: #636363;
+  --cor-experiencia: #A6A6A6;
+  --cor-empresa-texto: #636363;
+  --cor-empresas-experiencia: #E8E8E8;
+  --cor-ano-empresa: #636363;
+  --cor-formacao-fundo: #424242;
+  --cor-curso: #A6A6A6;
+  --cor-texto-curso: #858585;
+  --cor-destaque: linear-gradient(180deg, #60B596 0%, #4C9595 100%);
+
+  --fonte-geral: 'Fira Sans', Arial, sans-serif;
+  --font-titulo: 'Prompt';
+}
+
+.intro{
+  font-family: 'Prompt';
+  font-style: normal; 
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 80px;
+  color: #212121;
+}
+
+.img{
+  max-width: 100%;
+  display: block;
+}
+
+ul{
+  list-style: none;
+}
+
+.subtitulo-formacao{
+  font-size: 8rem;
+  word-break: break-all;
+  line-height: 1;
+}
+
+@media(max-width: 800px){
+  .subtitulo-formacao{
+    font-size: 2rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}

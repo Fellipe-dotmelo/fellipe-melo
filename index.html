@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+  <meta name="description"
+    content="Este site tem é para que eu demonstre as habilidades adquiridas ao longo do tempo com meus estudos.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fellipe Melo</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="./img/marca.svg" alt="">
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="https://drive.google.com/file/d/1O3KxstKuEFSEOydqh05vY62vOz88mg7n/view?usp=sharing"
+            download="curriculo-fellipe-melo.pdf" target="_blank">Currículo PDF</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="introducao imagem-poligono">
+    <div class="imagem-face">
+      <div class="poligno">
+        <img src="./img/profile-fundo.png" class="profile-perfil" alt="Foto de Perfil">
+      </div>
+    </div>
+    <div>
+      <h1>Análise de Dados <br> e Business Intelligence<br></h1>
+      <p>Localizado no Distrito Federal <img src="./img/memorialJK.svg" alt="imagem referenre ao memorial JK"></p>
+
+        <fieldset>
+          <legend>Contate-me</legend>
+          <form action="https://formspree.io/f/xvoewdod" method="POST">
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="fulano@email.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Assunto:</label>
+            <textarea id="message" name="message" placeholder="Escreva uma mensagem"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+          
+        </fieldset>
+      
+      
+    </div>
+
+
+
+
+  </main>
+
+  <section aria-label="Experiencia" class="experiencia" id="experiencia">
+    <h2 class="subtitulo">Experiência</h2>
+    <div>
+      <p class="experiencia-texto">Analista de Sistemas com experiência na área de Suporte
+        Técnico, expandindo meus horizontes para Análise de Dados com ênfase em Business Analytics e Intelligence,
+        adquiri
+        pequenas experiências na área com o trabalho que realizo hoje em dia, além de também ter experienciado situações
+        na faculdade e especialização que realizo. Demonstro grande adaptação e entusiasmo para superar o que me for
+        proposto.
+      </p>
+  </section>
+
+  <!-- XP's -->
+  <section class="empresas-container">
+    <div class="experiencia-topicos">
+
+      <!-- XP1 -->
+      <div class="empresa">
+        <div class="card-imagem slider">
+          <div class="slider">
+            <abbr title="caso queira ter acesso aos dashboards, por gentileza me enviar um e-mail">
+            <img src="img/aba-locacao-veiculos.png" alt="aba de locação de veículos">
+            <img src="img/dashboard-cliente.png" alt="aba de visualização de clientes de veículos">
+            </abbr>
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="card-info">
+          <h3>Dashboard - Vendas de Veículos</h3>
+          <p class="empresa-descricao">Dashboard desenvolvido em Power BI, com uso de medidas, funções DAX, power query.
+            A intenção do projeto é acompanhar cada detalhe da locadora de veículos.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>EXCEL</li>
+            <li>POWER BI</li>
+            <li>SQL SERVER</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP2 -->
+      <div class="empresa">
+        <div class="card-imagem slider">
+          <div class="slider">
+            <abbr title="caso queira ter acesso aos dashboards, por gentileza me enviar um e-mail">
+            <img src="./img/dashboard-acompanhamento-rh.png" alt="Dashboard de Gestão de Pessoas">
+            </abbr>
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="card-info">
+          <h3>Dashboard - Acompanhamento RH</h3>
+          <p class="empresa-descricao">Dashboard desenvolvido em Power BI, com uso de medidas, funções DAX, power query.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>EXCEL</li>
+            <li>POWER BI</li>
+            <li>SQL SERVER</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP3 -->
+      <div class="empresa">
+        <div class="card-imagem slider">
+          <div class="slider">
+            <abbr title="caso queira ter acesso aos dashboards, por gentileza me enviar um e-mail">
+            <img src="img/dashboard-vendas-capa.png" alt="aba de locação de veículos">
+            <img src="img/dashboard-vendas-relatorio.png" alt="aba de visualização de clientes de veículos">
+          </abbr>
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="card-info">
+          <h3>Dashboard - Vendas de Veículos</h3>
+          <p class="empresa-descricao">Dashboard desenvolvido em Power BI, com uso de medidas, funções DAX, power query.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>EXCEL</li>
+            <li>POWER BI</li>
+            <li>SQL SERVER</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP4 -->
+      <div class="empresa">
+        <div class="card-imagem slider">
+          <div class="slider">
+            <abbr title="caso queira ter acesso aos dashboards, por gentileza me enviar um e-mail">
+            <img src="img/dashboard-vendas-por-regiao.png" alt="vendas por região">
+          </abbr>
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="card-info">
+          <h3>Dashboard - Vendas</h3>
+          <p class="empresa-descricao">Dashboard desenvolvido em Power BI, com uso de filtros e funções.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>EXCEL</li>
+            <li>POWER BI</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP5 -->
+      <div class="empresa">
+        <div class="card-imagem slider">
+          <div class="slider">
+            <abbr title="caso queira ter acesso aos dashboards, por gentileza me enviar um e-mail">
+            <img src="img/dash-pandas-python.png" alt="aba de locação de veículos">
+            <img src="img/dash-pandas-python-vendasporcidade.png" alt="aba de visualização de clientes de veículos">
+          </abbr>
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="card-info">
+          <h3>Dashboard - Vendas de Gás</h3>
+          <p class="empresa-descricao">Dashboard desenvolvido em Python com as bibliotecas: Pandas e Matplotlib, utilizando funções, métodos para a exploração dos dados trazidos.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>EXCEL</li>
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>Matplotlib</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP6 -->
+      <div class="empresa">
+        <div class="card-imagem slider">
+          <div class="slider">
+            <abbr title="caso queira ter acesso aos dashboards, por gentileza me enviar um e-mail">
+            <img src="./img/curiosidades-tech.png" alt="Imagem do Projeto 1">
+          </abbr>
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="card-info">
+          <h3 class="empresa-titulo"><a href="https://fellipe-dotmelo.github.io/Projeto_Android/"><abbr
+            title="Link de Site">Projeto Android</abbr></a></h3>
+          <p class="empresa-descricao">Desenvolvo pequenos projetos como a página web apresentada no Link, utilizando apenas HTML e CSS.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP7 -->
+      <div class="empresa">
+        <div class="card-imagem slider">
+          <div class="slider">
+            <abbr title="caso queira ter acesso aos dashboards, por gentileza me enviar um e-mail">
+            <img src="img/bikcraft.png" alt="Imagem do Projeto 1">
+            <img src="img/bikcraft-2.png" alt="Imagem do Projeto 2">
+            <img src="img/bikcraft-3.png" alt="Imagem do Projeto 3">
+          </abbr>
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="card-info">
+          <h3 class="empresa-titulo"><a href="https://fellipe-dotmelo.github.io/bikcraft/"><abbr
+            title="Link de Site">Bikcraft</abbr></a></h3>
+          <p class="empresa-descricao">Desenvolvo pequenos projetos como a página web apresentada no Link, utilizando apenas HTML e CSS.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP8 -->
+      <div class="empresa">
+        <div class="card-imagem slider">
+          <div class="slider">
+            <img src="img/relacionamento-table.png" height="350" width="95%" alt="aba de locação de veículos">
+          </div>
+        </div>
+        <div class="card-info">
+          <h3>Projetos SQL</h3>
+          <p class="empresa-descricao">Projetos diversos em SQL, visando aperfeiçoamento em DDL, DML e ETL
+          </p>
+          <ul class="empresa-habilidades">
+            <li>EXCEL</li>
+            <li>MySQL</li>
+            <li>MySQL Workbench</li>
+            <li>SQL SERVER</li>
+            <li>Postgree SQL</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP9 -->
+      <div class="empresa">
+        <div class="card-info">
+          <h3>UB TECH</h3>
+          <span class="empresa-ano">2023 - 2024</span>
+          <p class="empresa-descricao"> Atualmente trabalho na área tecnológica na área de Suporte Técnico, o que vem
+            agregando no meu crescimento em
+            situações práticas, principalmente na área de Infraestrutura, que são cotidianos do Suporte. Atuo em
+            configurações
+            de ramais, manutenção de computadores, gerenciamento de ramais e e-mails, além dos demais ativos de TI.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>WordPress</li>
+            <li>Power BI</li>
+            <li>SQL Server</li>
+            <li>E-mails</li>
+            <li>Computadores</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP10 -->
+      <div class="empresa">
+        <div class="card-info">
+          <h3>Vert - Grupo Santa Lúcia</h3>
+          <span class="empresa-ano">2020 - 2023</span>
+          <p class="empresa-descricao"> Atualmente trabalho na área tecnológica na área de Suporte Técnico, o que vem
+            agregando no meu crescimento em
+            situações práticas, principalmente na área de Infraestrutura, que são cotidianos do Suporte. Atuo em
+            monitoramentos de NOC e Zabbix, atribuo chamados as equipes responsáveis, além de atender os usuários dentro
+            do
+            local de trabalho.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>Active Directory</li>
+            <li>Sistema de Chamados</li>
+            <li>Atendimento ao Usuário</li>
+            <li>Manutenção de Computadores</li>
+            <li>NOC e Zabbix</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP11 -->
+      <div class="empresa">
+        <div class="card-info">
+          <h3>Saitec - Quality</h3>
+          <span class="empresa-ano">2022 - 2023</span>
+          <p class="empresa-descricao"> Atualmente trabalho na área tecnológica na área de Suporte Técnico, o que vem agregando no meu crescimento em situações práticas, principalmente na área de Infraestrutura, que são cotidianos do Suporte. Atuo em
+          configurações de ramais, manutenção de computadores, gerenciamento de ramais e e-mails, além dos demais ativos de TI.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>Active Directory</li>
+            <li>Sistema de Chamados</li>
+            <li>Atendimento ao Usuário</li>
+            <li>Ramais</li>
+            <li>E-mails</li>
+            <li>Computadores</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- XP12 -->
+      <div class="empresa">
+        <div class="card-info">
+          <h3>Datama - CIG</h3>
+          <span class="empresa-ano">2022 - 2023</span>
+          <p class="empresa-descricao">Trabalhei na área tecnológica na área de Suporte Técnico, o que vem
+            agregando no meu crescimento em
+            situações práticas, principalmente na área de Infraestrutura, que são cotidianos do Suporte. Atuo em
+            configurações
+            de ramais, manutenção de computadores, gerenciamento de ramais e manutenção dos sistemas internos, além dos
+            demais
+            ativos de TI.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>Active Directory</li>
+            <li>Sistema de Chamados</li>
+            <li>Atendimento ao Usuário</li>
+            <li>Ramais</li>
+            <li>Sistemas Internos</li>
+            <li>Impressoras</li>
+            <li>Computadores</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <div class="formacao-container">
+      <h2 class="subtitulo-formacao">F<br>o<br>r<br>m<br>a<br>ç<br>ã<br>o</h2>
+      <div>
+        <p class="formacao-texto">
+          Exercendo o 1° (Primeiro) semestre da Especialização de Análise de Dados com ênfase em BI e BA.
+          pela Universidade Católica de Brasília. Após a graduação finalizada em 2023.
+        </p>
+        <ul class="curso-lista">
+          <li class="curso">
+            <span class="curso-tipo">Especialização</span>
+            <h3 class="curso-qual">Análise de Dados para BI e BA</h3>
+            <span class="curso-instituicao">UNIVERSIDADE CATÓLICA DE BRASÍLIA</span>
+          </li>
+          <li class="curso">
+            <span class="curso-tipo">Tecnólogo</span>
+            <h3 class="curso-qual">Análise e Desenvolvimento de Sistemas</h3>
+            <span class="curso-instituicao">UNIVERSIDADE ESTÁCIO DE SÁ</span>
+          </li>
+          <li class="curso">
+            <span class="curso-tipo">Técnico</span>
+            <h3 class="curso-qual">Técnico em Informática</h3>
+            <span class="curso-instituicao">ESCOLA TÉCNICA DE CEILÂNDIA</span>
+          </li>
+          <li class="curso">
+            <span class="curso-tipo">Lingua Estrangeira</span>
+            <h3 class="curso-qual">Inglês Específico III</h3>
+            <span class="curso-instituicao">CILT</span>
+          </li>
+        </ul>
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Cursos Intensivos</h3>
+            <ul>
+              <li>UX Design & UI Design <span>40 horas</span></li>
+              <li>Front End para Iniciantes <span>26 horas</span></li>
+              <li>Desenvolvimento Web Completo <span>114 horas</span></li>
+              <li>JavaScript ES6 <span> andamento</span></li>
+              <li>HTML 5 e CSS 3 <span> andamento</span></li>
+              <li>Banco de Dados e SQL <span> andamento</span></li>
+            </ul>
+          </div>
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês<span> / Intermediário</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <footer class="footer" id="contato">
+      <div class="footer-container">
+        <p class="footer-texto">
+          Estou a procura de uma oportunidade de emprego na área de Dados, consulte a disponibilidade, entre em
+          contato
+          comigo.
+        <ul class="footer-contato">
+          <abbr title="E-mail">
+            <li class="email">fellipe.scontato@gmail.com</li>
+          </abbr>
+          <abbr title="GitHub">
+            <li class="git">
+              <a href="https://github.com/Fellipe-dotmelo" target="_blank">GitHub</a>
+            </li>
+          </abbr>
+          <abbr title="Linkedin">
+            <li class="linkedin">
+              <a href="https://www.linkedin.com/in/fellipesmelo" target="_blank">Linkedin</a>
+            </li>
+          </abbr>
+          <abbr title="WhatsApp">
+            <li class="whats">
+              <a href="https://wa.link/l0d5vf" target="_blank">WhatsApp</a>
+            </li>
+          </abbr>
+
+        </ul>
+        <p class="footer-copy">
+          Fellipe Melo. Alguns direitos reservados. 2024 &copy;
+          <br>Este site está em constante atualização.
+        </p>
+        </p>
+
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
